@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import { ref } from "vue";
+import HelloWorld from "./components/HelloWorld.vue";
+const a = ref(0);
 </script>
 
 <template>
